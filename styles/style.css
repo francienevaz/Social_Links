@@ -14,9 +14,18 @@
     padding: 0;
     margin: 0;
     font-family: var(--font-stack);
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
+    display: flex;
     background-color: var(--body-bg-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-secondary);
+    max-height: 500px;
+    min-width: 600px;
 }
